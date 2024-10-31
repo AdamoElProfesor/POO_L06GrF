@@ -1,6 +1,6 @@
 package ch.heigvd.poo.personne;
 
-public class Professeur {
+public class Professeur extends Personne {
     private String abreviation;
 
     public String abreviation() {
