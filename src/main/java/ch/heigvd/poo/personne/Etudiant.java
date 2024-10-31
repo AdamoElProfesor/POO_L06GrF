@@ -1,6 +1,6 @@
 package ch.heigvd.poo.personne;
 
-public class Etudiant {
+public class Etudiant extends Personne {
     private int matricule;
 
     @Override

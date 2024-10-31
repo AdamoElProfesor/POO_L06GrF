@@ -1,6 +1,6 @@
 package ch.heigvd.poo.personne;
 
-public class Personne {
+public abstract class Personne {
     private String nom;
     private String prenom;
 
