@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40861f87-17b6-4611-ac2a-92ba736de10a" name="Changes" comment="">
+    <list default="true" id="40861f87-17b6-4611-ac2a-92ba736de10a" name="Changes" comment="Implemented classes Personne, Professeur and Etudiant">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/Groupe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/Groupe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/Lecon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/Lecon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Etudiant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Professeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Professeur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="implement_personne_and_subclasses" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +36,7 @@
     "Application.Run the application.executor": "Run",
     "Maven.Package application as JAR file.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "implement__personne__and__subclasses",
+    "git-widget-placeholder": "implement__Groupe__and__Lecon",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/axelp/Documents/Github projects/POO/POO_L06GrF",
     "node.js.detected.package.eslint": "true",
@@ -86,11 +85,24 @@
       <workItem from="1730384737914" duration="82000" />
       <workItem from="1730385127477" duration="1317000" />
       <workItem from="1730388183185" duration="10000" />
-      <workItem from="1730988480113" duration="725000" />
+      <workItem from="1730988480113" duration="3179000" />
     </task>
+    <task id="LOCAL-00001" summary="Implemented classes Personne, Professeur and Etudiant">
+      <option name="closed" value="true" />
+      <created>1730989424155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730989424155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented classes Personne, Professeur and Etudiant" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented classes Personne, Professeur and Etudiant" />
   </component>
 </project>

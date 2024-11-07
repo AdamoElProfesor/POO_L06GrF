@@ -1,14 +1,19 @@
 package ch.heigvd.poo;
 
+import ch.heigvd.poo.personne.Etudiant;
+
 public class Groupe {
     private int numero;
     private String orientation;
     private int trimestre;
+    private Etudiant[] etudiants;
+    private Lecon[] lecons;
 
-    public Groupe(int numero, String orientation, int trimestre) {
+    public Groupe(int numero, String orientation, int trimestre, Etudiant... etudiants) {
         this.numero = numero;
         this.orientation = orientation;
         this.trimestre = trimestre;
+        this.etudiants = etudiants;
     }
 
     public String horaire(){
@@ -16,15 +21,14 @@ public class Groupe {
     }
 
     public String nom(){
-        return "";
+        return orientation + trimestre + "-" + numero;
     }
 
     public int nombreEtudiants(){
-        return 0;
+        return etudiants.length;
     }
 
-    public void definirLecons(/*args*/){
-        return;
+    public void definirLecons(Lecon... lecons){
+        this.lecons = lecons;
     }
-
 }
