@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="40861f87-17b6-4611-ac2a-92ba736de10a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/Groupe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/Groupe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/Lecon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/Lecon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Professeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Professeur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -30,7 +37,7 @@
     "Application.Run the application.executor": "Run",
     "Maven.Package application as JAR file.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "skeleton",
+    "git-widget-placeholder": "implement__personne__and__subclasses",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/axelp/Documents/Github projects/POO/POO_L06GrF",
     "node.js.detected.package.eslint": "true",
@@ -77,7 +84,9 @@
       <updated>1730384627353</updated>
       <workItem from="1730384628463" duration="29000" />
       <workItem from="1730384737914" duration="82000" />
-      <workItem from="1730385127477" duration="363000" />
+      <workItem from="1730385127477" duration="1317000" />
+      <workItem from="1730388183185" duration="10000" />
+      <workItem from="1730988480113" duration="725000" />
     </task>
     <servers />
   </component>
