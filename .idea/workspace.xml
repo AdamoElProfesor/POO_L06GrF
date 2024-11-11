@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40861f87-17b6-4611-ac2a-92ba736de10a" name="Changes" comment="">
+    <list default="true" id="40861f87-17b6-4611-ac2a-92ba736de10a" name="Changes" comment="Everything implemented except &quot;horaire&quot; methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/Lecon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/Lecon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Etudiant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Professeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/poo/personne/Professeur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="implement_personne_and_subclasses" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,25 +29,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Run the application.executor": "Run",
-    "Maven.Package application as JAR file.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "implement__personne__and__subclasses",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/axelp/Documents/Github projects/POO/POO_L06GrF",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Run the application.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Package application as JAR file.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;implement__Groupe__and__Lecon&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/axelp/Documents/Github projects/POO/POO_L06GrF&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Run the application">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="POO_L06GrF" />
@@ -86,11 +83,34 @@
       <workItem from="1730384737914" duration="82000" />
       <workItem from="1730385127477" duration="1317000" />
       <workItem from="1730388183185" duration="10000" />
-      <workItem from="1730988480113" duration="725000" />
+      <workItem from="1730988480113" duration="3644000" />
+      <workItem from="1731312745154" duration="1033000" />
     </task>
+    <task id="LOCAL-00001" summary="Implemented classes Personne, Professeur and Etudiant">
+      <option name="closed" value="true" />
+      <created>1730989424155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730989424155</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Everything implemented except &quot;horaire&quot; methods">
+      <option name="closed" value="true" />
+      <created>1730993023536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730993023536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented classes Personne, Professeur and Etudiant" />
+    <MESSAGE value="Everything implemented except &quot;horaire&quot; methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything implemented except &quot;horaire&quot; methods" />
   </component>
 </project>

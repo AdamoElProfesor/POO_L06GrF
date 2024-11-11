@@ -1,11 +1,14 @@
 package ch.heigvd.poo.personne;
+import ch.heigvd.poo.Lecon;
 
 public class Professeur extends Personne {
     private String abreviation;
+    private Lecon[] lecons;
 
-    public Professeur(String nom, String prenom, String abreviation) {
+    public Professeur(String nom, String prenom, String abreviation, Lecon... lecons) {
         super(nom, prenom);
         this.abreviation = abreviation;
+        this.lecons = lecons;
     }
 
     public String abreviation() {
@@ -18,6 +21,6 @@ public class Professeur extends Personne {
     }
 
     public String horaire(){
-        return null;
+        return Lecon.horaire(lecons);
     }
 }
