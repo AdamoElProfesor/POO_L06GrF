@@ -17,7 +17,7 @@ public class Groupe {
     }
 
     public String horaire(){
-        return "";
+        return Lecon.horaire(lecons);
     }
 
     public String nom(){

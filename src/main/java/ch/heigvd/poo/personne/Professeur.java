@@ -21,6 +21,6 @@ public class Professeur extends Personne {
     }
 
     public String horaire(){
-        return null;
+        return Lecon.horaire(lecons);
     }
 }
