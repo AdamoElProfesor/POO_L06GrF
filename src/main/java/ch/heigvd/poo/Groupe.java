@@ -14,6 +14,10 @@ public class Groupe {
         this.orientation = orientation;
         this.trimestre = trimestre;
         this.etudiants = etudiants;
+
+        for (int i = 0; i < etudiants.length; i++) {
+            etudiants[i].setGroupe(this);
+        }
     }
 
     public String horaire(){

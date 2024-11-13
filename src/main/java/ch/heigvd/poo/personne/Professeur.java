@@ -11,6 +11,10 @@ public class Professeur extends Personne {
         this.lecons = lecons;
     }
 
+    public void setLecons(Lecon... lecons) {
+        this.lecons = lecons;
+    }
+
     public String abreviation() {
         return abreviation;
     }

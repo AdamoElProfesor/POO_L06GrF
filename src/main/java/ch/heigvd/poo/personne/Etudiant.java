@@ -14,4 +14,8 @@ public class Etudiant extends Personne {
     public String toString() {
         return "Etud. " + super.toString() + " (#" + matricule + ")" + (groupe != null ? " - " + groupe.nom() : "");
     }
+
+    public void setGroupe(Groupe groupe) {
+        this.groupe = groupe;
+    }
 }
